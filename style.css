@@ -1,0 +1,41 @@
+p {
+    color: #555;
+} 
+
+
+header nav ul li {
+    display: inline;
+}
+header nav a {
+    color: #880808;   
+}
+
+header nav a:hover {
+    text-decoration:none; 
+    
+} 
+
+/* First paragraph in article (second child of article) */ 
+article p:nth-child(2) {
+    text-decoration: underline;
+} 
+
+/* Specifies style to spans w/o classes */
+span:not(.am) {
+    font-style: italic;
+} 
+
+.am {
+    text-decoration: underline;
+ } 
+  
+
+ /* Footer, Last list, first item: No bullets */ 
+ footer ul:last-child li:first-child{
+    list-style-type:none;
+ } 
+
+ /* Footer, Last list, last item: bold */ 
+ footer ul:first-child li:last-child{
+    font-weight: bold;
+ }
